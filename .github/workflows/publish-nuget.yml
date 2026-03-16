@@ -32,6 +32,7 @@ jobs:
 
       - name: Configure GitHub Packages source
         run: |
+          dotnet nuget remove source github-packages || true
           dotnet nuget add source --name github-packages \
             --username "${{ github.actor }}" \
             --password "${{ secrets.GITHUB_TOKEN }}" \
