@@ -5,13 +5,7 @@
 
 Supported Targets:
 
-- .NET 6.0
-- .NET 5.0
-- .NET 4.8
-- .NET Standard 2.0
-- .NET Standard 2.1
-- .NET Core 3.1
-- Universal App Platform: win10
+- .NET 10.0
 
 Runs on Raspberry PI IoT Windows 10 (see note below)
 
