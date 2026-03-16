@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace ZWave.Channel
 {
-#if NET6_0 || NET5_0 || NET48
+#if NET10_0
     public class SerialPort : ISerialPort
     {
         private readonly System.IO.Ports.SerialPort _port;
