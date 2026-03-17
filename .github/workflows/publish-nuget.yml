@@ -30,6 +30,12 @@ jobs:
       - name: Pack
         run: dotnet pack --configuration Release -p:Version=${{ github.ref_name }} -o ./artifacts 
 
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuget-packages
+          path: ./artifacts/*.nupkg
+
       - name: Configure GitHub Packages source
         run: |
           dotnet nuget remove source github || true
