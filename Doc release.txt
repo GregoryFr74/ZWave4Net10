@@ -1,0 +1,13 @@
+faire la modif
+
+pousser un nouveau tag : 
+git tag 1.0.1
+git push --tags
+
+pousser la modif
+
+aller a : https://github.com/GregoryFr74/ZWave4Net10/actions
+si la relase ne passe pas (erreur de version master)
+
+au bout de la ligne : This workflow has a workflow_dispatch event trigger,
+Run workflow -> Branch master -> Tags -> sélectionner le nouveau tag -> Run workflow
