@@ -11,3 +11,7 @@ si la relase ne passe pas (erreur de version master)
 
 au bout de la ligne : This workflow has a workflow_dispatch event trigger,
 Run workflow -> Branch master -> Tags -> sélectionner le nouveau tag -> Run workflow
+
+
+https://github.com/GregoryFr74/ZWave4Net10/releases
+Draft a new release. choisir le tag
