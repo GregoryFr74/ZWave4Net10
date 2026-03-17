@@ -28,7 +28,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Pack
-        run: dotnet pack --configuration Release -p:Version=${{ github.ref_name }} -o ./artifacts
+        run: dotnet pack --configuration Release -p:Version=${{ github.ref_name#v }} -o ./artifacts
 
       - name: Configure GitHub Packages source
         run: |
